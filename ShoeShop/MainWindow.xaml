@@ -17,5 +17,6 @@
         <Image Source="/Image/Чудо Обувь.png" Width="100" HorizontalAlignment="Left"/>
         <TextBlock FontFamily="Calibri" FontSize="32" Text="{Binding ElementName=FrameMain, Path=Context.Title}" HorizontalAlignment="Center"/>
         <Button Name="Enter" Content="Авторизация" HorizontalAlignment="Right" FontFamily="Calibri" Background="#70B2AF" Click="Enter_ButtonClick"/>
+        <Frame x:Name="FrameMain" NavigationUIVisibility="Hidden" Grid.Row="1"/>
     </Grid>
 </Window>
