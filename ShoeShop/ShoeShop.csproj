@@ -108,6 +108,51 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Чудо Обувь.ico" />
+    <Resource Include="Image\Чудо Обувь.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IMG_KB_164811.png" />
+    <Resource Include="Image\IMG_KB_164816.png" />
+    <Resource Include="Image\IMG_KB_185501.png" />
+    <Resource Include="Image\IMG_KSd_185508.png" />
+    <Resource Include="Image\IMG_KSd_195207.png" />
+    <Resource Include="Image\IMG_KSho_185512.png" />
+    <Resource Include="Image\IMG_KS_195213.png" />
+    <Resource Include="Image\IMG_KS_195217.png" />
+    <Resource Include="Image\IMG_KS_195222.png" />
+    <Resource Include="Image\IMG_MB_174349.png" />
+    <Resource Include="Image\IMG_MB_191200.png" />
+    <Resource Include="Image\IMG_MB_191205.png" />
+    <Resource Include="Image\IMG_MSho_190514.png" />
+    <Resource Include="Image\IMG_MSho_190518.png" />
+    <Resource Include="Image\IMG_MSho_191612.png" />
+    <Resource Include="Image\IMG_MS_185531.png" />
+    <Resource Include="Image\IMG_MS_185532.png" />
+    <Resource Include="Image\IMG_MS_185533.png" />
+    <Resource Include="Image\IMG_WB_170859.png" />
+    <Resource Include="Image\IMG_WB_170905.png" />
+    <Resource Include="Image\IMG_WB_170906.png" />
+    <Resource Include="Image\IMG_WSd_174332.png" />
+    <Resource Include="Image\IMG_WSd_185156.png" />
+    <Resource Include="Image\IMG_WSd_185551.png" />
+    <Resource Include="Image\IMG_WSho_174409.png" />
+    <Resource Include="Image\IMG_WSho_185202.png" />
+    <Resource Include="Image\IMG_WSho_185545.png" />
+    <Resource Include="Image\IMG_WS_174110.png" />
+    <Resource Include="Image\IMG_WS_185528.png" />
+    <Resource Include="Image\IMG_WS_185535.png" />
+    <Resource Include="Image\IMG_WS_185538.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Convertors\" />
+    <Folder Include="Pages\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
