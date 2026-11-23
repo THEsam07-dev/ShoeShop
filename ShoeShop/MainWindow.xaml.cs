@@ -23,6 +23,8 @@ namespace ShoeShop
         public MainWindow()
         {
             InitializeComponent();
+            //добавление навигации внутри фрейма
+            FrameMain.Navigate(new Pages.ProductPage());
         }
     }
 }
